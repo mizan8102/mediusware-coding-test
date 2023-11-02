@@ -40,3 +40,8 @@ php artisan migrate
 php artisan serve
 
 ```
+
+
+Access the application in postman at http://localhost:8000/api or the URL provided by the php artisan serve command.
+
+Base URL: http://localhost:8000/api
