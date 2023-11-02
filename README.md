@@ -1,6 +1,6 @@
 # Laravel Project
 
-This is a Laravel project that does [brief project description].
+Laravel - 10
 
 ## Prerequisites
 
