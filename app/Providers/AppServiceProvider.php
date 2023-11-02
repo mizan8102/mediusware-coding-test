@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Interfaces\Auth\AuthInerface;
+use App\Services\Auth\AuthService;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +21,5 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
     }
 }
