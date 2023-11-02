@@ -19,15 +19,9 @@ Follow these steps to clone and run the project on your local environment:
 
     ```bash
     git clone https://github.com/mizan8102/mediusware-coding-test.git
-    ```
-
-````
-2. ** Navigate to the project folder:
-```bash
-cd project-name
-```bash
-composer install
-````
+    cd project-name
+    composer install
+    ````
 
 Create a copy of the .env.example file and save it as .env. Update the configuration values in the .env file, including your database connection details.
 
