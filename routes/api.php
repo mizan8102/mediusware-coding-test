@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::middleware(['auth:sanctum'])->group(function () {
-    Route::post('/users', [UserController::class,'store']);
+   
     Route::get('/', [TransactionController::class,'index']);
     Route::get('/deposit', [TransactionController::class,'show']);
     Route::post('/deposit', [TransactionController::class,'deposit']);
@@ -25,3 +25,4 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 });
 Route::post('/login', [AuthController::class, 'login']);
+Route::post('/users', [UserController::class,'store']);
